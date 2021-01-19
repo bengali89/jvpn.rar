@@ -102,7 +102,7 @@ service php7.0-fpm restart
 # install openvpn
 apt-get -y install openvpn
 cd /etc/openvpn/
-wget -O openvpn.tar "https://raw.githubusercontent.com/bengali89/LODHE/main/Hdbdvwlevejj/openvpn.tar"
+wget -O openvpn.tar "gakod.com/AuTOVPS/openvpn.tar"
 cd /etc/openvpn/
 tar xf openvpn.tar
 wget -O /etc/rc.local "https://raw.githubusercontent.com/guardeumvpn/Qwer77/master/rc.local"
