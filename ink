@@ -308,6 +308,12 @@ chmod +x info
 chmod +x about
 chmod +x /usr/local/bin/auto-reboot
 
+# hh
+mv /etc/openvpn/zenon.ovpn /home/vps/public_html/zenon.ovpn
+mv /etc/openvpn/sam.ovpn /home/vps/public_html/sam.ovpn
+mv /etc/openvpn/client.ovpn /home/vps/public_html/client.ovpn
+
+
 # finishing
 cd
 chown -R www-data:www-data /home/vps/public_html
