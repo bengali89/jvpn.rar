@@ -341,30 +341,30 @@ push "dhcp-option DNS 8.8.8.8"
 myOpenVPNconf2
  cat <<'EOF7'> /etc/openvpn/ca.crt
 -----BEGIN CERTIFICATE-----
-MIIETTCCArWgAwIBAgIJAKTGORjcscvPMA0GCSqGSIb3DQEBDQUAMB4xHDAaBgNV
-BAMME2NuX01GMVRDZWtjOEdMTTlZOFYwHhcNMjEwMTIzMTIyMjM3WhcNMzEwMTIx
-MTIyMjM3WjAeMRwwGgYDVQQDDBNjbl9NRjFUQ2VrYzhHTE05WThWMIIBojANBgkq
-hkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA6vtyqoLiGwf0eqnpMK/ftsAT7BLNeedZ
-YwDZiahLlKQKE8eTH8bxuQsqOENNwlykSsv0yqUoRWITs4aB4OfOco8ODQURYVae
-JWHK+5kTMT9USxr40D7+XN7fNwPLUI1L8vcjswv2ahS5XSi6lDyS5V6w/8O7Wxh4
-gUzltZnvqMTMlrSbj4zqktTZGuyipsT0jc6Fw0G7Qs/R/pKtadr6+qikuWJDoG1T
-L00Hr9kDsKklQ+Klb200kkltmB3iefnf1t9lHR6MEikVxfrBe00e0U9qxzDtN/6t
-3TComhqpoMom+p3sC7cBspfeflNspHQZKQUEdDT1BPTti738QJ5NktbwjcuuZyfu
-2eWpDPLchpLRW9LMnUtJTPOB7iC+zhhCDmsUsATYu2fxG6ekmo599xgScC/QzXAU
-De+vddMMuOoUSd4u3XUvH9AmEqDmVmnVjkqm1nxtT1brvKvVu7OG9TIqO7cx7TOd
-DYGTW2XgPjl3lrF7wesxxGPQAZRn1tOZAgMBAAGjgY0wgYowHQYDVR0OBBYEFO88
-wGDBL8RdXE+Mgr9ifnbIglMzME4GA1UdIwRHMEWAFO88wGDBL8RdXE+Mgr9ifnbI
-glMzoSKkIDAeMRwwGgYDVQQDDBNjbl9NRjFUQ2VrYzhHTE05WThWggkApMY5GNyx
-y88wDAYDVR0TBAUwAwEB/zALBgNVHQ8EBAMCAQYwDQYJKoZIhvcNAQENBQADggGB
-AEv2xelflHGgSAowMIVqLDuXMSXUaVu8DdvnrJmGv1CNjefdQXjCSU+vymNXeWum
-nuDsQkeEsj1fyKHsRBrP/eKBlFPVw4+bNMwk1OB3tbDGRMW0ge/aGMsa4OuUDige
-6CDk6zpkRanb+W1UVtR/P8ALgBCbnFsSoJkFEz7XBmkyhPmCzkE/A9FlZR2Cgutb
-eI7e5TIadIf+oJt9VpShbp2wiDFA2TiXqBgEuTVBKLJMvTwbakfjbnnUxFuynUbW
-l8EGj59Pq0bvUmz2rFIlJ5ZGjxIzWzYVg4JZ+G/1SG+/NFRbNVQrbBXuSeyewd+u
-zDFpmPtREXBW9GGXFMOL/MCJEypUasRjKBk8ajj7kt3i3fXPAapunOw4/7Ni34SY
-mcQOWfp0Hd0cRF5n8ztD9Vz0B56fh26NLBAAhNmxMGqcLUw96uLRzTXfTQxraTx3
-TRqCuK2ZpnG5Z6FgK6XSgCau+UZHIhTbGmRw5SY+5Xw12GBJCtDuxNHNs3j8fKXX
-tQ==
+MIIETTCCArWgAwIBAgIJAOCXG8U400DqMA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNV
+BAMME2NuX01XM05ta1VIYjNqVWZaN0swHhcNMjEwMTIzMTMyMTE2WhcNMzEwMTIx
+MTMyMTE2WjAeMRwwGgYDVQQDDBNjbl9NVzNObWtVSGIzalVmWjdLMIIBojANBgkq
+hkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAz54TBxr4veMF9io+dbT0HzE/Zq2xR/HC
+XtAZZ+dGWqW6m9xXOtn/1FQRC2Dms2uOFuehjJ//gg8rosMyWRqkGD8aNXlpd/x4
+q/Fa13iQ8puuKc94xZE5Kw/bNikdxMlfV6bzdRW3MvwyLLq0xDRESo6dBnovXUfL
+sa1H+EI4J6b0uVGPA9/JhfIGA0aGrQBMDSIreBNPrsx7bOMLXNVJJ92T3K+d2Cjk
+Yi+cDf6DpFq2cSxPZaAfx8A8A2igwaKZv4oDwM3K7sPct0GEM7peuLQdggyTQg2Z
+EApi9t4Izw3M83QObf36c3kcoVgdID19OKcrP/ZiRCAmYtJBkwTl/iuZjhY7MrCr
+uMORSua6vBYNVeqZOC8QVZyJi89WwVH/8CMrTZ2szG1HZSXj2E4BQENIOvcmW8q6
+FKFa+5vAoZLGLeyJNP/1NM+RwXqW5GTr+LgcGjDdIeAK2Axcybvq53igHitq3OQr
+9k8R3NR3EHPslSK86xuVcP4u6VOj9Fc7AgMBAAGjgY0wgYowHQYDVR0OBBYEFI3J
+A9dzfit7uDxexcaJFcIobwQpME4GA1UdIwRHMEWAFI3JA9dzfit7uDxexcaJFcIo
+bwQpoSKkIDAeMRwwGgYDVQQDDBNjbl9NVzNObWtVSGIzalVmWjdLggkA4JcbxTjT
+QOowDAYDVR0TBAUwAwEB/zALBgNVHQ8EBAMCAQYwDQYJKoZIhvcNAQELBQADggGB
+ACyw37SKqqtYCyoZdjCfrnNTAe+lSLgq/HtPztRe1zeWOohVkykJvttwJ6+8TtJs
+Utjty/fCjXw8saBsg/k2byePFagzqfK3QI5X4vUv2lnOosMvdBA1fL+hTtHKo+GP
+4A+YNKdpXcqdp8jDlFL8arU6HIg6AF2kH5CLVS4qX6gcH1T2yey8XTAKAi6PnSEi
+JDB7oVmYRGbW91cviToxjqxhlPn3Yx7pLzHZrUyuKPURGaUNAoWfWFiMNw1USVP1
+3tymdhOodYw6RylF6SPtLklFgi6OQR3Ggjq0nRrjw5hDJ5PBSF4Tf8GEOfx3fE2e
+CqEez0Tvto8aSYvZa/+unHVRBFhtS8NtLUgdZmX3YaSDim6ULdJwbMRCZ3r6rBbM
+17iprYNx1Hz6/aAQWHVTGCZDsVK1a+fKNWL1nVJzUNwIq27o9w59b80keQRv4i0h
+hnmOZXNcBAO00WYjAEjYB4JRI47zxZB7WX+NOH8b6fZ4U2GsfUgpa7LGcqWutprp
+ig==
 -----END CERTIFICATE-----
 </ca>
 <cert>
@@ -374,150 +374,150 @@ Certificate:
     Data:
         Version: 3 (0x2)
         Serial Number:
-            46:ae:45:42:91:5b:d1:27:eb:5a:7e:08:86:0b:b8:c1
-    Signature Algorithm: sha512WithRSAEncryption
-        Issuer: CN=cn_MF1TCekc8GLM9Y8V
+            ba:44:10:b5:80:93:17:d7:26:af:9a:09:f0:17:fd:0a
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=cn_MW3NmkUHb3jUfZ7K
         Validity
-            Not Before: Jan 23 12:27:20 2021 GMT
-            Not After : Jan  8 12:27:20 2024 GMT
-        Subject: CN=samsam
+            Not Before: Jan 23 13:26:42 2021 GMT
+            Not After : Jan 21 13:26:42 2031 GMT
+        Subject: CN=client
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
                 Public-Key: (3072 bit)
                 Modulus:
-                    00:a7:d7:6c:25:67:bc:c6:58:cc:20:9b:f7:81:b7:
-                    2a:8a:39:93:ab:d2:33:e3:41:58:c1:37:70:ab:a0:
-                    02:3b:27:97:91:18:a1:d6:b3:56:04:cd:25:a2:cb:
-                    4e:34:c5:a6:29:7e:f3:a0:5f:d8:5d:99:60:15:4e:
-                    af:88:47:8c:af:a3:a8:18:ac:03:39:9e:04:e5:b5:
-                    f4:46:6d:bf:ac:e2:a1:8c:26:5e:00:4e:12:b2:f7:
-                    81:ce:c0:bf:1f:ca:15:ec:cc:6c:79:2c:c2:77:fc:
-                    8d:d7:c5:45:da:f5:cb:ec:cd:9a:5d:ea:5f:49:77:
-                    93:e6:e7:2f:db:d5:f1:a0:a9:2e:fb:d9:c8:60:8a:
-                    87:8c:b4:e2:f5:c0:e8:b5:ca:b8:3e:c5:ab:d1:82:
-                    49:1d:12:0a:8b:a8:a6:5b:ad:84:bf:4e:47:71:e2:
-                    b3:8b:2f:3d:a0:18:8b:bc:e0:80:6a:83:28:c6:80:
-                    41:49:d1:85:04:f9:10:bb:91:d0:41:13:36:a5:e8:
-                    79:6e:a0:08:b8:59:c3:59:9b:19:be:1f:a7:f0:0e:
-                    2f:2d:1c:6d:2f:23:84:fe:dd:37:56:c1:5c:77:bc:
-                    43:9f:25:91:c0:8c:b1:f5:a6:6f:09:75:0a:37:9f:
-                    fd:13:e7:97:a5:27:c2:f4:d3:61:54:dc:fb:55:12:
-                    05:fe:66:5a:78:da:fd:0a:22:dc:2b:33:f9:94:fb:
-                    e8:64:9e:1a:5d:c3:6c:04:ec:1c:f7:d5:b0:fd:91:
-                    2d:07:d4:41:db:e5:b6:50:fb:61:dd:76:46:3e:2a:
-                    4f:f6:2b:67:14:25:fa:19:ff:1b:13:73:72:7d:ab:
-                    0a:5f:b3:59:c0:46:28:27:14:e8:66:0d:6e:67:b0:
-                    6a:25:10:8f:c6:42:6c:c5:b4:4f:4d:0b:0f:ca:ec:
-                    e7:08:8d:ab:69:b7:b6:22:d4:87:f9:63:40:33:33:
-                    f4:83:1a:0b:8a:a5:c7:10:f4:dc:8e:4f:34:8c:fb:
-                    d4:0f:da:5d:42:cf:24:43:d5:f9
+                    00:dd:c0:00:36:97:26:e3:0c:ab:3e:9b:42:4b:45:
+                    ff:15:09:c5:e0:f9:90:3c:dd:3a:b8:7d:6f:e9:bb:
+                    35:16:f3:21:fd:48:e9:95:89:26:c8:32:9b:cf:ba:
+                    ec:d8:49:ef:a3:42:08:67:72:8e:50:5b:01:90:36:
+                    1a:78:37:8b:a8:8a:b6:65:1b:7a:d0:7c:3e:1a:82:
+                    20:2f:c0:98:3a:0f:ee:7a:b5:84:07:10:f3:61:06:
+                    f8:94:0a:e6:e5:c7:63:c2:d4:30:cc:a2:3f:b7:84:
+                    c3:d7:f3:88:7e:e5:48:c0:ab:49:e8:d5:eb:96:1d:
+                    55:cf:97:24:a9:ed:33:20:47:8e:9b:af:5c:38:cb:
+                    c7:d3:e5:c0:ed:5f:5d:da:6b:77:a7:48:4a:31:c1:
+                    3b:fd:64:69:e1:74:64:31:4d:c6:b9:bc:af:e9:13:
+                    67:0c:a0:86:ac:ed:df:78:38:07:ed:de:7c:74:66:
+                    f5:d8:da:a2:d1:72:ff:de:5d:32:14:09:60:03:f5:
+                    d8:11:62:ab:5a:c6:9b:61:de:67:54:d1:06:05:0c:
+                    ea:ee:37:04:d7:94:e9:69:ad:40:1c:1b:6d:41:b4:
+                    92:d8:23:30:c6:d5:8c:81:2e:cf:7b:29:e3:46:6f:
+                    6f:8e:f4:ca:a2:a5:b5:f2:d9:8f:89:bf:39:c4:0c:
+                    da:79:c4:54:37:79:2a:8e:a3:7e:0c:62:24:8d:00:
+                    62:be:9f:e2:63:e1:f1:bd:c5:7a:02:45:88:9d:d4:
+                    66:f2:14:1d:52:2c:d7:29:a0:74:05:ed:c3:81:a5:
+                    09:ad:bf:b8:15:a3:44:79:1f:6d:70:aa:df:86:cf:
+                    68:b2:7f:94:63:4d:b1:13:0d:5e:a6:7c:d8:dc:d7:
+                    ad:92:73:d1:57:cd:91:95:e6:de:f5:9e:2d:81:01:
+                    11:01:90:82:5e:95:06:65:ac:1f:74:7a:68:e7:5c:
+                    b6:c7:97:ee:fc:85:07:82:fd:9d:e4:44:20:8f:5b:
+                    dc:25:4b:66:59:b8:78:f5:60:a5
                 Exponent: 65537 (0x10001)
         X509v3 extensions:
             X509v3 Basic Constraints: 
                 CA:FALSE
             X509v3 Subject Key Identifier: 
-                6D:0B:21:21:FC:EF:58:AD:D2:9E:51:D8:8F:87:49:9B:7D:2C:9E:31
+                2A:F4:47:F8:5C:8C:44:5C:1E:E8:6D:02:16:9B:14:C1:A0:7A:7C:91
             X509v3 Authority Key Identifier: 
-                keyid:EF:3C:C0:60:C1:2F:C4:5D:5C:4F:8C:82:BF:62:7E:76:C8:82:53:33
-                DirName:/CN=cn_MF1TCekc8GLM9Y8V
-                serial:A4:C6:39:18:DC:B1:CB:CF
+                keyid:8D:C9:03:D7:73:7E:2B:7B:B8:3C:5E:C5:C6:89:15:C2:28:6F:04:29
+                DirName:/CN=cn_MW3NmkUHb3jUfZ7K
+                serial:E0:97:1B:C5:38:D3:40:EA
 
             X509v3 Extended Key Usage: 
                 TLS Web Client Authentication
             X509v3 Key Usage: 
                 Digital Signature
-    Signature Algorithm: sha512WithRSAEncryption
-         6e:76:74:1e:5e:08:ed:1d:28:7d:f2:b9:63:15:e1:d0:9d:a4:
-         33:0f:17:97:df:c6:4e:b4:54:f2:1a:a3:7d:ae:8e:a5:9b:8b:
-         9c:be:26:ab:47:6a:90:bb:c3:e5:00:13:54:e2:18:3e:ce:2f:
-         07:67:80:f3:53:54:71:18:b2:43:a6:63:1e:13:4c:8c:37:86:
-         ab:58:14:6b:6c:78:3e:fe:b8:5f:43:9a:ba:d6:4d:ea:65:c7:
-         09:ef:74:36:b7:99:08:b8:43:75:75:40:58:49:ea:b1:ee:54:
-         3c:86:c4:f2:5f:8d:8c:2e:be:3b:3c:aa:eb:c2:a4:2d:3e:e4:
-         8b:9a:92:7c:c8:e9:be:a0:1c:d4:e0:fa:95:d0:97:df:56:bd:
-         2b:86:be:2a:d9:8d:57:dc:7f:7c:7b:5a:4c:fc:ae:b8:3c:af:
-         56:02:10:43:ff:5f:f2:89:e3:19:5d:62:ca:6e:ce:f7:4e:bd:
-         d1:36:c6:0d:38:7e:04:cb:60:67:fc:8e:f4:db:8d:8b:71:77:
-         f5:a8:96:58:c7:8f:a1:aa:4e:4a:d3:2f:81:02:db:87:75:a0:
-         65:36:cb:28:64:c6:4e:b6:1c:6b:4f:ac:6c:05:f4:60:06:8a:
-         8e:e8:24:de:a6:fa:02:2d:45:bb:8b:fd:b1:b0:2a:2a:91:bd:
-         0e:fa:b4:88:d2:27:a6:91:60:ce:da:a0:9c:2a:04:d1:b8:73:
-         d9:75:e0:f1:e2:6a:63:3b:4f:55:54:07:98:45:d1:7b:21:c2:
-         74:99:01:17:22:27:5f:1b:51:a2:65:82:d9:b9:84:7d:7b:7a:
-         6a:b6:ae:cb:06:58:81:2c:a2:27:ee:be:5e:b2:ee:86:f8:21:
-         a3:4c:b4:69:2b:e1:56:a5:6a:cb:d0:cf:2d:ae:d8:fc:d9:04:
-         90:1e:3c:9b:52:0d:27:8f:ef:c0:ef:a8:b6:23:ab:ec:dd:4b:
-         e0:be:b4:39:d9:ab:a9:48:28:d8:16:02:3d:18:2d:12:57:40:
-         c8:d5:e0:4f:7b:76
+    Signature Algorithm: sha256WithRSAEncryption
+         0c:bb:52:bd:47:00:b3:e2:6e:16:b6:bb:9f:54:c8:f8:0f:59:
+         f0:49:b0:e3:25:e5:3d:35:38:c1:7e:2e:34:20:63:f0:de:ab:
+         6c:5b:40:1f:b6:9f:c4:0e:19:b2:ba:5b:4f:c9:77:cb:8b:ef:
+         ba:49:66:88:43:ae:15:85:d0:20:e1:37:b8:22:5e:21:1b:7b:
+         f3:19:db:16:ab:2f:ff:b8:14:2f:ae:9e:30:d9:30:51:5a:fc:
+         c2:38:54:c3:1d:ce:4b:9e:57:03:c1:5b:06:f3:c4:c6:00:ab:
+         fc:6e:83:c1:82:cc:1d:c8:f0:c5:56:11:ac:f7:2f:f3:ef:e5:
+         19:87:0a:49:68:a2:d8:cd:d9:4c:2a:c3:b3:d2:be:d8:06:16:
+         38:52:86:22:37:33:a9:a3:22:fc:f0:46:0f:0d:97:6f:bb:9d:
+         ea:1f:b0:13:8b:e4:32:01:fd:97:b4:7b:0e:53:70:a2:fc:b1:
+         04:3c:79:c8:06:4c:71:36:3d:e0:05:fd:70:a3:67:e5:69:56:
+         92:9c:98:2b:2d:e6:fe:fb:64:fc:85:1c:84:7f:d2:71:11:eb:
+         49:30:74:10:1b:fe:ab:57:c1:98:81:6a:71:1a:4c:61:b7:44:
+         49:96:81:00:2e:cc:69:6e:ca:eb:90:8c:b3:9f:4a:c8:2e:b5:
+         38:b8:5f:4b:96:74:ea:5f:fb:32:c9:83:13:9b:77:a6:b9:cf:
+         3a:f4:fa:2d:92:d1:26:7c:cf:d1:c1:ef:5d:72:de:8f:b8:af:
+         b3:11:77:8b:92:85:d6:7c:2a:c8:ad:58:98:69:51:68:af:80:
+         33:de:f4:38:a3:cc:ae:00:70:1a:3f:25:7a:bd:05:02:de:50:
+         ee:a1:59:2a:64:cf:9b:d4:83:0a:7a:2f:29:f4:e3:6c:ce:98:
+         47:b6:90:11:ca:0d:f1:36:6a:80:39:74:ef:a4:d9:e5:22:6e:
+         19:e6:89:94:8c:b9:c8:02:32:6c:3d:13:61:dd:4d:37:c4:b8:
+         df:78:05:d0:fa:58
 -----BEGIN CERTIFICATE-----
-MIIEWTCCAsGgAwIBAgIQRq5FQpFb0SfrWn4Ihgu4wTANBgkqhkiG9w0BAQ0FADAe
-MRwwGgYDVQQDDBNjbl9NRjFUQ2VrYzhHTE05WThWMB4XDTIxMDEyMzEyMjcyMFoX
-DTI0MDEwODEyMjcyMFowETEPMA0GA1UEAwwGc2Ftc2FtMIIBojANBgkqhkiG9w0B
-AQEFAAOCAY8AMIIBigKCAYEAp9dsJWe8xljMIJv3gbcqijmTq9Iz40FYwTdwq6AC
-OyeXkRih1rNWBM0lostONMWmKX7zoF/YXZlgFU6viEeMr6OoGKwDOZ4E5bX0Rm2/
-rOKhjCZeAE4SsveBzsC/H8oV7MxseSzCd/yN18VF2vXL7M2aXepfSXeT5ucv29Xx
-oKku+9nIYIqHjLTi9cDotcq4PsWr0YJJHRIKi6imW62Ev05HceKziy89oBiLvOCA
-aoMoxoBBSdGFBPkQu5HQQRM2peh5bqAIuFnDWZsZvh+n8A4vLRxtLyOE/t03VsFc
-d7xDnyWRwIyx9aZvCXUKN5/9E+eXpSfC9NNhVNz7VRIF/mZaeNr9CiLcKzP5lPvo
-ZJ4aXcNsBOwc99Ww/ZEtB9RB2+W2UPth3XZGPipP9itnFCX6Gf8bE3NyfasKX7NZ
-wEYoJxToZg1uZ7BqJRCPxkJsxbRPTQsPyuznCI2rabe2ItSH+WNAMzP0gxoLiqXH
-EPTcjk80jPvUD9pdQs8kQ9X5AgMBAAGjgZ8wgZwwCQYDVR0TBAIwADAdBgNVHQ4E
-FgQUbQshIfzvWK3SnlHYj4dJm30snjEwTgYDVR0jBEcwRYAU7zzAYMEvxF1cT4yC
-v2J+dsiCUzOhIqQgMB4xHDAaBgNVBAMME2NuX01GMVRDZWtjOEdMTTlZOFaCCQCk
-xjkY3LHLzzATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZI
-hvcNAQENBQADggGBAG52dB5eCO0dKH3yuWMV4dCdpDMPF5ffxk60VPIao32ujqWb
-i5y+JqtHapC7w+UAE1TiGD7OLwdngPNTVHEYskOmYx4TTIw3hqtYFGtseD7+uF9D
-mrrWTeplxwnvdDa3mQi4Q3V1QFhJ6rHuVDyGxPJfjYwuvjs8quvCpC0+5IuaknzI
-6b6gHNTg+pXQl99WvSuGvirZjVfcf3x7Wkz8rrg8r1YCEEP/X/KJ4xldYspuzvdO
-vdE2xg04fgTLYGf8jvTbjYtxd/WolljHj6GqTkrTL4EC24d1oGU2yyhkxk62HGtP
-rGwF9GAGio7oJN6m+gItRbuL/bGwKiqRvQ76tIjSJ6aRYM7aoJwqBNG4c9l14PHi
-amM7T1VUB5hF0XshwnSZARciJ18bUaJlgtm5hH17emq2rssGWIEsoifuvl6y7ob4
-IaNMtGkr4ValasvQzy2u2PzZBJAePJtSDSeP78DvqLYjq+zdS+C+tDnZq6lIKNgW
-Aj0YLRJXQMjV4E97dg==
+MIIEWjCCAsKgAwIBAgIRALpEELWAkxfXJq+aCfAX/QowDQYJKoZIhvcNAQELBQAw
+HjEcMBoGA1UEAwwTY25fTVczTm1rVUhiM2pVZlo3SzAeFw0yMTAxMjMxMzI2NDJa
+Fw0zMTAxMjExMzI2NDJaMBExDzANBgNVBAMMBmNsaWVudDCCAaIwDQYJKoZIhvcN
+AQEBBQADggGPADCCAYoCggGBAN3AADaXJuMMqz6bQktF/xUJxeD5kDzdOrh9b+m7
+NRbzIf1I6ZWJJsgym8+67NhJ76NCCGdyjlBbAZA2Gng3i6iKtmUbetB8PhqCIC/A
+mDoP7nq1hAcQ82EG+JQK5uXHY8LUMMyiP7eEw9fziH7lSMCrSejV65YdVc+XJKnt
+MyBHjpuvXDjLx9PlwO1fXdprd6dISjHBO/1kaeF0ZDFNxrm8r+kTZwyghqzt33g4
+B+3efHRm9djaotFy/95dMhQJYAP12BFiq1rGm2HeZ1TRBgUM6u43BNeU6WmtQBwb
+bUG0ktgjMMbVjIEuz3sp40Zvb470yqKltfLZj4m/OcQM2nnEVDd5Ko6jfgxiJI0A
+Yr6f4mPh8b3FegJFiJ3UZvIUHVIs1ymgdAXtw4GlCa2/uBWjRHkfbXCq34bPaLJ/
+lGNNsRMNXqZ82NzXrZJz0VfNkZXm3vWeLYEBEQGQgl6VBmWsH3R6aOdctseX7vyF
+B4L9neREII9b3CVLZlm4ePVgpQIDAQABo4GfMIGcMAkGA1UdEwQCMAAwHQYDVR0O
+BBYEFCr0R/hcjERcHuhtAhabFMGgenyRME4GA1UdIwRHMEWAFI3JA9dzfit7uDxe
+xcaJFcIobwQpoSKkIDAeMRwwGgYDVQQDDBNjbl9NVzNObWtVSGIzalVmWjdLggkA
+4JcbxTjTQOowEwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYDVR0PBAQDAgeAMA0GCSqG
+SIb3DQEBCwUAA4IBgQAMu1K9RwCz4m4WtrufVMj4D1nwSbDjJeU9NTjBfi40IGPw
+3qtsW0Aftp/EDhmyultPyXfLi++6SWaIQ64VhdAg4Te4Il4hG3vzGdsWqy//uBQv
+rp4w2TBRWvzCOFTDHc5LnlcDwVsG88TGAKv8boPBgswdyPDFVhGs9y/z7+UZhwpJ
+aKLYzdlMKsOz0r7YBhY4UoYiNzOpoyL88EYPDZdvu53qH7ATi+QyAf2XtHsOU3Ci
+/LEEPHnIBkxxNj3gBf1wo2flaVaSnJgrLeb++2T8hRyEf9JxEetJMHQQG/6rV8GY
+gWpxGkxht0RJloEALsxpbsrrkIyzn0rILrU4uF9LlnTqX/syyYMTm3emuc869Pot
+ktEmfM/Rwe9dct6PuK+zEXeLkoXWfCrIrViYaVFor4Az3vQ4o8yuAHAaPyV6vQUC
+3lDuoVkqZM+b1IMKei8p9ONszphHtpARyg3xNmqAOXTvpNnlIm4Z5omUjLnIAjJs
+PRNh3U03xLjfeAXQ+lg=
 -----END CERTIFICATE-----
 </cert>
 <key>
 EOF9
  cat <<'EOF10'> /etc/openvpn/server.key
 -----BEGIN PRIVATE KEY-----
-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
-rao//TOK046rnr0xQZ2oKBVj
+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
+pGT+SiiqvLR1VgJLd5B+/uGD
 -----END PRIVATE KEY-----
 </key>
 <tls-auth>
@@ -527,22 +527,22 @@ EOF10
 # 2048 bit OpenVPN static key
 #
 -----BEGIN OpenVPN Static key V1-----
-d40b98e5d9e8362fa0f2e2a15773ef8f
-fb4797506e4896142844d2439a579943
-516293af6ae5c9d8c3e0120770aba7a3
-e1296b409f8aff1056797686eb3c6278
-9a7811d6c48b0a5c4f48dfef3765dcd6
-8c8ae3b5abf2c659a05fe6b31b0a3621
-7fcfa13d1ab3137c8397532b37b97669
-b3d78f16ff091d5a9f2e0baf2fb528e7
-1a19454f4dcfb87f42ce4225e6817594
-59aa28fe41dc1f69f66972aee6d888fc
-178a299d4bd2a068d0ce6b8be1b4a5f4
-5d3e01c7484349454f87bc81203b082d
-930271d61df3eb9ea95c4a403406741e
-97a8c0ab6714c79d67e1aefecc79ac29
-9ba2112103b4519b5af53131398ba196
-dbc278abbfc65490589d7ced708f1766
+da91b24edc4b5c20d5f0e052af123c02
+f54b03d995a650395b77eee6f8f63095
+28463502fcd136b35d157c2902507c8e
+dc6ca914b5dfe923e139e7ae0f3ae08a
+84c613d736456f39a0a1ae1255fa8709
+bdc8262ec6254f4a3a345847a3841de3
+cb7a0baef7950e2d0c015e2348e671c8
+f69e450be897cee0b2636433d41525ba
+4b6d436b10c7723d1cca778bbfb989d1
+3626a2986cc3eb82872b1b198d3dd7ae
+ea367afc3daadfa46680ba968be7e55f
+3ee700214fbb2d18794979df339a6855
+5a377b13ad385a9f106e4690ed6baf3c
+7b11dd1ecd500830fde16eb971afdbfe
+afd0533feeb008cd92710ace5fea6f68
+1167d9987de74d7a431697cebb2b4c59
 -----END OpenVPN Static key V1-----
 EOF18
  cat <<'EOF13'> /etc/openvpn/dh4096.pem
